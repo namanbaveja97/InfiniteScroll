@@ -1,0 +1,53 @@
+.issueBar{
+    padding: 2px;
+    margin: 0px;
+    position: relative;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+.issueBar__icon{
+    position: absolute;
+    top:5px;
+    left: 15px;
+    fill: currentColor;
+    color: #097709;
+    
+}
+.issubar__text{
+    /* background-color: blue; */
+    padding: 2px 2px 2px 40px;
+    margin: 0px;
+    font-weight: 500 ;
+    font-size: 17px;
+    
+}
+
+.issubar__duration{
+    color: rgb(68, 68, 68);
+    padding-left: 0px 0px 0px 30px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.issueBar__label{
+    
+    border-radius: 16px;
+    background-color: #d4c5f9;
+    font-weight: 600;
+    padding: 2px 10px;
+    padding-bottom: 4px;
+    margin: 0px 2px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.label_1{
+    background-color: #fbca04;
+}
+.label_2{
+    background-color: #b60205;
+}
+
+.issubar__title{
+    width: 50%;
+   
+}
